@@ -1,0 +1,25 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/PigLatinTest.java",
+      "testCases": [
+        {
+          "methodName": "pigLatinTest1",
+          "label": "Converts word starting with consonant cluster",
+          "description": "Verifies that the Pig Latin method converts 'banana' to 'ananabay'"
+        },
+        {
+          "methodName": "pigLatinTest2",
+          "label": "Validates Pig Latin conversion",
+          "description": "Verifies that the Pig Latin method converts 'pear' to 'earpay'."
+        },
+        {
+          "methodName": "pigLatinTest3",
+          "label": "Converts word beginning with consonant",
+          "description": "Verifies that the Pig Latin method converts 'peach' to 'eachpay'."
+        }
+      ]
+    }
+  ]
+}
